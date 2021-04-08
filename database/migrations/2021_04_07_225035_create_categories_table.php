@@ -32,10 +32,5 @@ class CreateCategoriesTable extends Migration
         Schema::dropIfExists('categories');
     }
 
-    public function products(){
-
-        return $this->belongsToMany('App\Product');
-
-    }
 
 }

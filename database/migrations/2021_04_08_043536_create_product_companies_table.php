@@ -13,7 +13,7 @@ class CreateProductCompaniesTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_companies', function (Blueprint $table) {
+        Schema::create('company_product', function (Blueprint $table) {
             $table->bigInteger('product_id')->unsigned();
             $table->bigInteger('company_id')->unsigned();
 

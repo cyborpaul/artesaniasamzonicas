@@ -29,6 +29,6 @@ class CreateProductCompaniesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_companies');
+        Schema::dropIfExists('company_product');
     }
 }

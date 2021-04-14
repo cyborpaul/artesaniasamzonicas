@@ -23,6 +23,5 @@ class Product extends Model
     public function companies(){
 
         return $this->belongsToMany(Company::class);
-
     }
 };

@@ -32,15 +32,7 @@ class CreateProductsTable extends Migration
         Schema::dropIfExists('products');
     }
 
-    public function companies(){
 
-        return $this->belongsToMany('App\Company');
 
-    }
-
-    public function categories(){
-
-        return $this->belongsToMany('App\Category');
-
-    }
+  
 }

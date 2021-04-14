@@ -32,10 +32,5 @@ class CreateCompaniesTable extends Migration
         Schema::dropIfExists('companies');
     }
 
-    public function products(){
-
-        return $this->belongsToMany('App\Product');
-
-    }
 
 }
